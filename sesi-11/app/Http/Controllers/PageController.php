@@ -6,12 +6,12 @@ class PageController extends Controller
 {
     public function home()
     {
-        return "Halaman Home";
+        return view('home');
     }
 
     public function about()
     {
-        return "Halaman About";
+        return view('about');
     }
 
     public function contact()
